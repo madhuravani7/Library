@@ -1,0 +1,139 @@
+.navbar{
+    padding: 1.5rem 0;
+    background-color: var(--green);
+    box-shadow: rgba(0, 0, 0, 0.1);
+
+    .container{
+        
+       
+
+        .logo-and-menu{
+            width: 100%;
+
+            .logo-menu-link{
+                width: 15rem;
+              
+
+                .logo{
+                    font-size: 5rem;
+                    color: var(--darkgreen);
+                }
+
+                // span{
+                //     margin-bottom: -2rem;
+                //     color: var(--darkbrown);
+                //     font-family: 'Cedarville Cursive', cursive;
+                // }
+
+            }
+
+            .menu-btn{
+                display: none;
+            }
+        }
+    }
+
+
+    .navbar-active{
+        .navbar-list{
+            display: flex;
+            .list-item{
+                margin-left: 2rem;
+                .list-link{
+                    color: var(--darkgreen);
+                    &:hover{
+                        color: var(--darkbrown);
+                    }
+                }
+            }
+        }
+    }
+    // .show-navbar{
+     
+    // }
+
+
+}
+
+
+@media (max-width: 991px){
+    .navbar{
+        .container{
+            .logo-and-menu{
+              
+                .menu-btn{
+                    display: inline;
+                    color: var(--darkgreen);
+
+                    &:hover{
+                        color: var(--darkbrown);
+                    }
+                }
+            }
+        }
+        
+
+        .navbar-active{
+            .navbar-list{
+                position: absolute;
+                clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+                
+            }
+
+            &.show-navbar{
+                .navbar-list{
+                    display: flex;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    height: auto;
+                    right: 0; top: 7rem;
+                    background-color: var(--green);
+                    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+                    transition: var(--transition);
+
+                    .list-item{
+                        margin-top: 0.8rem;
+                        margin-right: 1.2rem;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+
+
+// @media screen and (min-width: 991px){
+//     .navbar{
+//         .navbar-collapse{
+//             position: relative;
+//             height: auto;
+//             padding: 0;
+//             width: 100%;
+//             transform: translateX(0);
+//             justify-content: flex-end;
+
+//             .navbar-nav {
+//                 display: flex;
+
+//               .nav-item{
+//                     margin-bottom: 0;
+//                     margin-left: 2.8rem;
+
+//                     .nav-link{
+//                       color: var(--darkbrown);
+//                       font-size: 1.7rem;
+//                       font-weight: 500!important;
+//                       opacity: 0.8;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+//     .brand-and-toggler{
+//         .navbar-toggler-btn{
+//             display: none;
+//         }
+//     }
+// }

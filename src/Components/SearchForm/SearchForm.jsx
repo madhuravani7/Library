@@ -2,7 +2,7 @@ import React from 'react'
 import './SearchForm.scss'
 const SearchForm = () => {
   return (
-    <div>SearchForm</div>
+    <h1>search form</h1>
   )
 }
 
