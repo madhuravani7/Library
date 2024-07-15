@@ -2,7 +2,10 @@ import React from 'react'
 import './SearchForm.scss'
 const SearchForm = () => {
   return (
-    <h1>search form</h1>
+    <div className="search-bar">
+      <input className='input-bar' type="text" placeholder='search here...'/>
+      <button type='submit' className="search-btn">search</button>
+    </div>
   )
 }
 

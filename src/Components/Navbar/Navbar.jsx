@@ -32,11 +32,11 @@ const Navbar = () => {
 
                 <ul className="navbar-list">
                     <li className="list-item">
-                        <Link to="book" className='list-link text-uppercase text-white fs-20 fw-6 ls-1'>Home</Link>
+                        <Link to="book" className='list-link text-white fs-20 fw-6 ls-1'>Home</Link>
                     </li>
                     
                     <li className="list-item">
-                        <Link to="about" className='list-link text-uppercase text-white fs-20 fw-6 ls-1'>About</Link>
+                        <Link to="about" className='list-link text-white fs-20 fw-6 ls-1'>About</Link>
                     </li>
                 </ul>
 

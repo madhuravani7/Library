@@ -1,6 +1,6 @@
 .navbar{
     padding: 1.5rem 0;
-    background-color: var(--green);
+    background-color: var(--darkbrown);
     box-shadow: rgba(0, 0, 0, 0.1);
 
     .container{
@@ -16,7 +16,7 @@
 
                 .logo{
                     font-size: 5rem;
-                    color: var(--darkgreen);
+                    color: var(--brown);
                 }
 
                 // span{
@@ -40,9 +40,9 @@
             .list-item{
                 margin-left: 2rem;
                 .list-link{
-                    color: var(--darkgreen);
+                    color: var(--brown);
                     &:hover{
-                        color: var(--darkbrown);
+                        color: var(--yel);
                     }
                 }
             }
@@ -63,10 +63,10 @@
               
                 .menu-btn{
                     display: inline;
-                    color: var(--darkgreen);
+                    color: var(--brown);
 
                     &:hover{
-                        color: var(--darkbrown);
+                        color: var(--yel);
                     }
                 }
             }
@@ -86,8 +86,8 @@
                     justify-content: space-around;
                     flex-direction: column;
                     height: auto;
-                    right: 0; top: 7rem;
-                    background-color: var(--green);
+                    right: 0; top: 8rem;
+                    background-color: var(--darkbrown);
                     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                     transition: var(--transition);
 

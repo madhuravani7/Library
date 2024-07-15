@@ -1,0 +1,29 @@
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 770px;
+
+    .input-bar{
+        padding: 1rem;
+        margin-right: 2rem;
+        width: 80%;
+        height: 5rem;
+        border-radius: 2rem;
+    }
+
+    .search-btn{
+        padding: 1rem;
+        background-color: var(--darkbrown);
+        height: 5rem;
+        width: 10rem;
+        border-radius: 2rem;
+        color: var(--brown);
+        text-transform: capitalize;
+
+        &:hover{
+            background-color: var(--darkgreen);
+            color: var(--brown);
+        }
+    }
+}
