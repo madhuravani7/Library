@@ -4,4 +4,4 @@ Project quick info: It's a library website where a user can search for different
 
 Languages / Tools used: HTML, SASS, JavaScript, Bootstrap, ReactJS, Visual Studio Code, Open Library Search API
 
-Images go here ...
+👨‍💻Currently working on this project
