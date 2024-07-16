@@ -1,6 +1,6 @@
 .navbar{
     padding: 1.5rem 0;
-    background-color: var(--darkbrown);
+    background-color: var(--white);
     box-shadow: rgba(0, 0, 0, 0.1);
 
     .container{
@@ -16,7 +16,7 @@
 
                 .logo{
                     font-size: 5rem;
-                    color: var(--brown);
+                    color: var(--darkbrown);
                 }
 
                 // span{
@@ -40,9 +40,9 @@
             .list-item{
                 margin-left: 2rem;
                 .list-link{
-                    color: var(--brown);
+                    color: var(--darkbrown);
                     &:hover{
-                        color: var(--yel);
+                        color: var(--brown);
                     }
                 }
             }
@@ -63,10 +63,10 @@
               
                 .menu-btn{
                     display: inline;
-                    color: var(--brown);
+                    color: var(--darkbrown);
 
                     &:hover{
-                        color: var(--yel);
+                        color: var(--brown);
                     }
                 }
             }
@@ -87,7 +87,7 @@
                     flex-direction: column;
                     height: auto;
                     right: 0; top: 8rem;
-                    background-color: var(--darkbrown);
+                    background-color: var(--white);
                     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
                     transition: var(--transition);
 
